@@ -24,18 +24,18 @@ img {
 	width: 500px;
 }
 
-.default-height{
+.height .default-height{
 	display: inline-block;
 	border: 2px solid black;
 }
 
-.red{
+.height .red{
 	display: inline-block;
 	border: 2px solid red;
 	line-height: 1;
 }
 
-.blue{
+.height .blue{
 	display: inline-block;
 	border: 2px solid blue;
 	line-height: 5;
