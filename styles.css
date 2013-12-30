@@ -19,7 +19,7 @@ body {
 	
 }
 
-img {
+.border_image {
 	height: 400px;
 	width: 500px;
 }
