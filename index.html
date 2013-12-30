@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-	 <link href="styles.css" rel="stylesheet">
-</head>
+  <head>
+  	 <link href="styles.css" rel="stylesheet">
+  </head>
 
-<body>
-	<header>
-		<h1 class = "title">BROWSER FONTS </h1>
-	</header>
+  <body>
+	  <header>
+		  <h1 class = "title">BROWSER FONTS </h1>
+  	</header>
 
-<section class="style">
+    <section class="style">
       <h2>Font Style</h2>
 
       <p>The font-style CSS property allows you to select italic or oblique font-faces within your chosen font family.</p>
@@ -51,6 +51,22 @@
       <p>If you want to use a font that isn't on the list of web-safe fonts, you can use one of the tools we discuss below.</p>
     </section>
 
+    <section class="family">
+      <h2>Font Families</h2>
+
+      <p>The CSS font-family attribute determines which typeface is used. Standard typefaces, such as Courier, Arial, Helvetica, and Georgia can be specified, or generic font styles can be used. Acceptable font styles are serif, sans-serif, monospace, cursive, and fantasy.</p>
+
+      <p>Multiple typefaces can be specified for an element and should be separated by commas. If using a font that contains whitespace, the name of that typeface should be in quotes. The font listed first will take priority. If the browser cannot find that font installed on the computer, it will fall to the second option, if the second cannot be fount it will look for the third, etc. If none of the fonts specified can be found the browser's default font family will be used.</p>
+
+      <p>It is best practices to end the list of font options with a generic typeface so that you are not relying on the browser's default font. It is also important to be mindful of which fonts are available on which operating systems. For example, Mac computers have the Helvetica font but Windows computers usually do not, and so Arial may be used as a substitute.</p>
+
+      <p>
+      Example:<br>
+      <code>body {<br>
+        &nbsp; &nbsp; font-family: Helvetica, Arial, sans-serif;<br>
+      }</code>
+      </p>
+    </section>
 
     <section> 
       <h1> Font Weight </h1>
@@ -68,4 +84,3 @@
 	</body>
 
 </html>
->>>>>>> 73c0c8e2259991c208d170cddf5529a0cb0dd26f
