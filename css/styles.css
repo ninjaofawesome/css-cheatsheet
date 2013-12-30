@@ -10,16 +10,35 @@ body {
 
 /*########Fonts#######*/
 
+.title {
+	font-size: 500%;
+	font-weight: 900;
+	text-align: center;
+}
+
 /*######Tags########*/
+
+
 .style {
 
 }
 
 .websafe {
-	
+
 }
 
-img {
-	height: 400px;
-	width: 500px;
+.size {
+
+}
+
+.family {
+
+}
+
+.fontweight {
+
+}
+
+.support {
+
 }
