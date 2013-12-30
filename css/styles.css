@@ -16,21 +16,10 @@ body {
 }
 
 .websafe {
-
-}
-
-.size {
-
-}
-
-.family {
-
-}
-
-.fontweight {
-
-}
-
-.support {
 	
+}
+
+img {
+	height: 400px;
+	width: 500px;
 }
