@@ -23,3 +23,20 @@ img {
 	height: 400px;
 	width: 500px;
 }
+
+.default-height{
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.red{
+	display: inline-block;
+	border: 2px solid red;
+	line-height: 1;
+}
+
+.blue{
+	display: inline-block;
+	border: 2px solid blue;
+	line-height: 5;
+}
