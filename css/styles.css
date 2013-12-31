@@ -52,7 +52,15 @@ body {
 }
 
 .support { 
+	color: purple;
+}
+
+.tools {
 	color: violet;
+}
+
+.height {
+	color:black;
 }
 /********IMAGES*********/
 
