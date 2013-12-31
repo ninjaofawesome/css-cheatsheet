@@ -18,27 +18,61 @@ body {
 
 /*######Tags########*/
 
+.rainbow {
+  background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+}
 
-.style {
+
+.style { 
+	color: red;
 
 }
 
 .websafe {
+	color: yellow;
 
 }
 
 .size {
-
+	color: orange;
 }
+
 
 .family {
 
+	color: green;
 }
 
 .fontweight {
+	color: blue;
 
 }
 
-.support {
+.support { 
+	color: violet;
+}
+/********IMAGES*********/
 
+img {
+	height: 400px;
+	width: 500px;
+}
+
+.height .default-height{
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.height .red{
+	display: inline-block;
+	border: 2px solid red;
+	line-height: 1;
+}
+
+.height .blue{
+	display: inline-block;
+	border: 2px solid blue;
+	line-height: 5;
 }

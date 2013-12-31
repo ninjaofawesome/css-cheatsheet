@@ -19,95 +19,100 @@
     <div class = "row">
     	 <div class = "col-md-12">
         <header> 
-    		  <h1 class = "title">BROWSER FONTS </h1>
+    		  <h1 class = "title"><span class="rainbow">CSS CHEAT SHEET</span></h1>
       	</header>
        </div>
     </div>
 
 
+<div class = "row">
+  <div class = "col-md-8">
 
-    <section class="style">
-      <h2>Font Style</h2>
+      <section class="style">
+        <h2>Font Style</h2>
 
-      <p>The font-style CSS property allows you to select italic or oblique font-faces within your chosen font family.</p>
+        <p>The font-style CSS property allows you to select italic or oblique font-faces within your chosen font family.</p>
 
-      <p>Italic forms are generally cursive, while oblique forms are generally sloped.</p>
+        <p>Italic forms are generally cursive, while oblique forms are generally sloped.</p>
 
-      <p>Values:</p>
-      
-      <ul>
-        <li>normal: selects a font that is classified as normal</li>
-        <li>italic: selects an italic form; if that is not available, selects an oblique form</li>
-        <li>oblique: selects an oblique form</li>
-      </ul>
+        <p>Values:</p>
+        
+        <ul>
+          <li>normal: selects a font that is classified as normal</li>
+          <li>italic: selects an italic form; if that is not available, selects an oblique form</li>
+          <li>oblique: selects an oblique form</li>
+        </ul>
 
-      <p>Example syntax:</p>
+        <p>Example syntax:</p>
 
-      <p>p { font-style: italic }</p>
-    </section>
+        <p>p { font-style: italic }</p>
+      </section>
 
-    <section class="size">
-      <h2>Font Size</h2>
-      <p>
-        Font-size is the size of font. Font sizes can be measured in pixels, points, em, or percent. The font-size selector will change the size of the font of an element. Changing the font size may change the size of other items since it is used to compute the value of em and ex length units.
-      </p>
-      <p>Examples of using font size</p>
-      <ul>
-        <li>h1 {font-size:50px;}</li>
-        <li>h1 {font-size:2.5em;}</li>
-      </ul>
-    </section>
+      <section class="size">
+        <h2>Font Size</h2>
+        <p>
+          Font-size is the size of font. Font sizes can be measured in pixels, points, em, or percent. The font-size selector will change the size of the font of an element. Changing the font size may change the size of other items since it is used to compute the value of em and ex length units.
+        </p>
+        <p>Examples of using font size</p>
+        <ul>
+          <li>h1 {font-size:50px;}</li>
+          <li>h1 {font-size:2.5em;}</li>
+        </ul>
+      </section>
 
-    <section class="websafe">
-      <h2>Web-Safe Fonts</h2>
+      <section class="websafe">
+        <h2>Web-Safe Fonts</h2>
 
-      <p>These are fonts that work on most computers. If a web-safe font is either your specified font or one of your fallbacks -- fonts the computer displays if the first font specified is not available on the computer -- your webpages will display correctly on the majority of computers.</p>
+        <p>These are fonts that work on most computers. If a web-safe font is either your specified font or one of your fallbacks -- fonts the computer displays if the first font specified is not available on the computer -- your webpages will display correctly on the majority of computers.</p>
 
-      <p>The complete list of web-safe fonts can be found here: <a href="http://cssfontstack.com/">CSS Font Stack</a>.</p>
+        <p>The complete list of web-safe fonts can be found here: <a href="http://cssfontstack.com/">CSS Font Stack</a>.</p>
 
-      <p>With mobile devices, however, the list of web-safe fonts is far smaller, at least according to <a href="http://www.bluetrainmobile.com/blog/choosing-fonts-for-your-mobile-website/">this website</a>:</p>
+        <p>With mobile devices, however, the list of web-safe fonts is far smaller, at least according to <a href="http://www.bluetrainmobile.com/blog/choosing-fonts-for-your-mobile-website/">this website</a>:</p>
 
-      <ul>
-        <li>Arial/Helvetica</li>
-        <li>Courier/Courier New</li>
-        <li>Georgia</li>
-        <li>Times/Times New Roman</li>
-        <li>Trebuchet MS</li>
-        <li>Verdana</li>
-      </ul>
+        <ul>
+          <li>Arial/Helvetica</li>
+          <li>Courier/Courier New</li>
+          <li>Georgia</li>
+          <li>Times/Times New Roman</li>
+          <li>Trebuchet MS</li>
+          <li>Verdana</li>
+        </ul>
 
-      <p>If you want to use a font that isn't on the list of web-safe fonts, you can use one of the tools we discuss below.</p>
-    </section>
+        <p>If you want to use a font that isn't on the list of web-safe fonts, you can use one of the tools we discuss below.</p>
+      </section>
 
-    <section class="family">
-      <h2>Font Families</h2>
+      <section class="family">
+        <h2>Font Families</h2>
 
-      <p>The CSS font-family attribute determines which typeface is used. Standard typefaces, such as Courier, Arial, Helvetica, and Georgia can be specified, or generic font styles can be used. Acceptable font styles are serif, sans-serif, monospace, cursive, and fantasy.</p>
+        <p>The CSS font-family attribute determines which typeface is used. Standard typefaces, such as Courier, Arial, Helvetica, and Georgia can be specified, or generic font styles can be used. Acceptable font styles are serif, sans-serif, monospace, cursive, and fantasy.</p>
 
-      <p>Multiple typefaces can be specified for an element and should be separated by commas. If using a font that contains whitespace, the name of that typeface should be in quotes. The font listed first will take priority. If the browser cannot find that font installed on the computer, it will fall to the second option, if the second cannot be fount it will look for the third, etc. If none of the fonts specified can be found the browser's default font family will be used.</p>
+        <p>Multiple typefaces can be specified for an element and should be separated by commas. If using a font that contains whitespace, the name of that typeface should be in quotes. The font listed first will take priority. If the browser cannot find that font installed on the computer, it will fall to the second option, if the second cannot be fount it will look for the third, etc. If none of the fonts specified can be found the browser's default font family will be used.</p>
 
-      <p>It is best practices to end the list of font options with a generic typeface so that you are not relying on the browser's default font. It is also important to be mindful of which fonts are available on which operating systems. For example, Mac computers have the Helvetica font but Windows computers usually do not, and so Arial may be used as a substitute.</p>
+        <p>It is best practices to end the list of font options with a generic typeface so that you are not relying on the browser's default font. It is also important to be mindful of which fonts are available on which operating systems. For example, Mac computers have the Helvetica font but Windows computers usually do not, and so Arial may be used as a substitute.</p>
 
-      <p>
-      Example:<br>
-      <code>body {<br>
-        &nbsp; &nbsp; font-family: Helvetica, Arial, sans-serif;<br>
-      }</code>
-      </p>
-    </section>
+        <p>
+        Example:<br>
+        <code>body {<br>
+          &nbsp; &nbsp; font-family: Helvetica, Arial, sans-serif;<br>
+        }</code>
+        </p>
+      </section>
 
-    <section = "fontweight"> 
-      <h1> Font Weight </h1>
-      <img src="images/font_weight.jpg">
-    </section>
-	
-    <section = "support">
-    	<h1>Font Support</h1>
+      <section = "fontweight"> 
+        <h1> Font Weight </h1>
+        <img src="images/font_weight.jpg" width= "300">
+      </section>
+  	
+      <section = "support">
+      	<h1>Font Support</h1>
 
-    	<p>When declaring a font family to use on a site, the family of fonts is chosen in a heiarchy.  The first choice font will be listed first (it could be an included font), followed by the next choice if that font does not want to render, followed by more choices, then followed by a final choice available to most computers everywhere.</p>
+      	<p>When declaring a font family to use on a site, the family of fonts is chosen in a heiarchy.  The first choice font will be listed first (it could be an included font), followed by the next choice if that font does not want to render, followed by more choices, then followed by a final choice available to most computers everywhere.</p>
 
-    	<p>The two most general families of fonts to choose from are serif fonts or sans-serif fonts.  Beyond that there are a small variety of web safe fonts to choose from.  (Please refer to <a href = "http://cssfontstack.com/">this page</a> for a full listing.)  The designer can then choose their first choice of fonts by using the @font-face rule in most browsers today.</p>
-  	</section>
+      	<p>The two most general families of fonts to choose from are serif fonts or sans-serif fonts.  Beyond that there are a small variety of web safe fonts to choose from.  (Please refer to <a href = "http://cssfontstack.com/">this page</a> for a full listing.)  The designer can then choose their first choice of fonts by using the @font-face rule in most browsers today.</p>
+    	</section>
+
+    </div>
+  </div>
 
 
      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
